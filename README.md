@@ -19,7 +19,6 @@ docker-compose exec web bash
 
 - Para rodar as migrations:
 ```
-docker-compose exec web bash
 python manage.py makemigrations
 python manage.py migrate
 ```
