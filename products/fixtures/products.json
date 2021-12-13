@@ -1,0 +1,202 @@
+[
+  {
+    "model": "products.category",
+    "pk": 1,
+    "fields": {
+      "created": "2021-12-13T02:24:40.218274+00:00",
+      "modified": "2021-12-13T02:24:40.218274+00:00",
+      "name": "Informática",
+      "slug": "informatica"
+    }
+  },
+  {
+    "model": "products.category",
+    "pk": 2,
+    "fields": {
+      "created": "2021-12-13T02:28:07.067951+00:00",
+      "modified": "2021-12-13T02:28:07.067951+00:00",
+      "name": "Action Figure",
+      "slug": "action-figure"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1,
+    "fields": {
+      "created": "2021-12-13T02:31:40.622112+00:00",
+      "modified": "2021-12-13T02:31:40.622112+00:00",
+      "name": "Marvel Legends Cabeça do Deadpool Especial Interativa Eletrônica",
+      "slug": "marvel-legends-cabeca-do-deadpool-especial-interat",
+      "image": "products/2021/12/12/81PXusZG-7L._AC_SL1500_1.jpg",
+      "description": "É, TIPO, MUITO ESPECIAL, GALERA: Quem nunca quis ter na prateleira um pedaço desse corpinho de Deadpool? Agora é possível, seus sortudos. Fãs e nerds vão adorar esta Cabeça de Deadpool Especial Interativa Marvel Legends;\r\nMINHA CABEÇA SE MOVE COM A GRAÇA DE UMA BAILARINA: Minha linda cabeça possui - spoiler alert - olhos! Eles possuem diversos sensores para dar aquele toque sensacional de expressividade e interatividade! Como todas as cabeças, acho;\r\nOUÇO VOZES NA MINHA CABEÇA - MAIS DE 600 SONS E FRASES EM INGLÊS: Olha, essa Cabeça do Deadpool fala demais. Igual naqueles filmes que nem vale a pena mencionar (D-E-A-D-P-O-O-L). Estejam advertidos;\r\nFUNCIONA UMA BELEZA COM O APP: Usando o meu app gratuito (não precisa pagar NADA) é possível me pedir para fazer e dizer um monte de [CENSURADO], piadas, brincadeiras e insultos! (app apenas em inglês);\r\nVAMOS INTERAGIR, BABY!: Com todas essas maravilhooosas características, é impossível resistir. É só clicar no botão ali e me adicionar ao carrinho de compras",
+      "price": 999.95,
+      "is_available": true,
+      "category": 2
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 2,
+    "fields": {
+      "created": "2021-12-13T02:33:52.075606+00:00",
+      "modified": "2021-12-13T02:33:52.075606+00:00",
+      "name": "Kratos God Of War 3 Neca Hercules Manopla Nemeana",
+      "slug": "kratos-god-of-war-3-neca-hercules-manopla-nemeana",
+      "image": "products/2021/12/12/D_NQ_NP_2X_895734-MLB30127000883_042019-F1.webp",
+      "description": "Kratos com a manopla de Hércules\r\nGod Of War 3\r\nNeca Toys\r\nDeus Da Guerra\r\nAPROX. 20 cm de altura\r\n\r\n31 pontos de articulação\r\n02 cabeças intercambiavéis\r\n02 blades de Athena\r\n02 manoplas Nemeana de Hércules\r\nboots de hermes\r\nombreiras (velocino de ouro de jasão)",
+      "price": 379.99,
+      "is_available": true,
+      "category": 2
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 3,
+    "fields": {
+      "created": "2021-12-13T02:37:32.442696+00:00",
+      "modified": "2021-12-13T02:37:32.442696+00:00",
+      "name": "Thor 16cm Vingadores Marvel",
+      "slug": "thor-16cm-vingadores-marvel",
+      "image": "products/2021/12/12/D_NQ_NP_625433-MLB31774539564_082019-O1.webp",
+      "description": "- Boneco Thor 16cm Os Vingadores\r\n- Figura possui cerca de 16cm de altura\r\n- Figura totalmente articulada e com todos os acessórios apresentados nas imagens do anúncio\r\n- Figura lacrada em sua caixa original de fábrica",
+      "price": 208.8,
+      "is_available": true,
+      "category": 2
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 4,
+    "fields": {
+      "created": "2021-12-13T02:40:11.346369+00:00",
+      "modified": "2021-12-13T02:40:11.346369+00:00",
+      "name": "Orochimaru - Naruto Shippuden - Xtra - Tsume",
+      "slug": "orochimaru-naruto-shippuden-xtra-tsume",
+      "image": "products/2021/12/12/D_NQ_NP_975603-MLB48408290956_122021-O1.webp",
+      "description": "Estátua do personagem Orochimaru do anime Naruto Shippuden\r\nFigura: Tsume Xtra Naruto Shippuden Orochimaru\r\nFabricante: Tsume\r\nEscala: 1/10\r\nMaterial: PVC\r\nAltura aproximada: 18 cm",
+      "price": 780.85,
+      "is_available": true,
+      "category": 2
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 5,
+    "fields": {
+      "created": "2021-12-13T02:43:11.57175+00:00",
+      "modified": "2021-12-13T02:43:11.57175+00:00",
+      "name": "Action Figure Homem Aranha De Ferro - Guerra Infinita Marvel",
+      "slug": "action-figure-homem-aranha-de-ferro-guerra-infinit",
+      "image": "products/2021/12/12/D_NQ_NP_918091-MLB45158812308_032021-O1.webp",
+      "description": "Minoto Soluções trazendo o melhor para você\r\n\r\nOBSERVAÇÕES:\r\n1 - ESTE PRODUTO É PARA COLECIONADORES, NÃO É CONSIDERADA BRINQUEDO E SIM ITEM DE COLEÇÃO. SE VOCÊ É COLECIONADOR ESSA FIGURA É INDISPENSÁVEL PARA VOCÊ.\r\n2 - MANDAREMOS DE BRINDE UM BRINQUEDO DO HOMEM ARANHA.",
+      "price": 263.93,
+      "is_available": true,
+      "category": 2
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 6,
+    "fields": {
+      "created": "2021-12-13T02:57:39.614075+00:00",
+      "modified": "2021-12-13T02:58:15.075911+00:00",
+      "name": "Notebook Dell Alienware m15 R6 i1100-M30P 15.6 fhd 11ª ger Intel Core i7 16GB 1TB ssd rtx 3070 Win 11",
+      "slug": "notebook-dell-alienware-m15-r6-i1100-m30p-156-fhd",
+      "image": "products/2021/12/12/4065706645_1_xlarge1.jpg",
+      "description": "Desempenho visual irretocável.\r\n\r\nAções extremamente nítidas: Não importa se você está jogando por lazer ou em uma disputa acirrada: graças à jogabilidade mais fluida, você nunca perde nenhum detalhe essencial. Resultado de cuidadosas decisões de engenharia, o mais recente m15, a partir de 165 Hz, é incrivelmente rápido. Mas não é só isso.\r\n\r\nDê descanso aos seus olhos: A tela do m15 R6 inclui nossa tecnologia ComfortView Plus de baixa emissão de luz azul. Esta é uma abordagem baseada em hardware para filtrar a luz azul sem prejudicar a qualidade da imagem, projetada para proporcionar a você confiança para jogar por horas.\r\n\r\nSatisfaça sua necessidade de rapidez.\r\n\r\nA rapidez é indiscutível: O mais recente m15 R6 vem com uma taxa de atualização incrivelmente alta, de 165 Hz, e resolução FHD (1.920 x 1.080) para gerar todas as vezes imagens brilhantes e experiências gamers inesquecíveis.\r\n\r\nNossa taxa de atualização mais alta: Disponível na resolução FHD, tem a taxa de atualização perfeita para uma jogabilidade competitiva, em que seus reflexos podem acompanhar a ação de alta velocidade graças a recursos gráficos excelentes — a opção decisiva para a vitória decisiva.",
+      "price": 14499.0,
+      "is_available": true,
+      "category": 1
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 7,
+    "fields": {
+      "created": "2021-12-13T02:59:59.452516+00:00",
+      "modified": "2021-12-13T03:01:19.971977+00:00",
+      "name": "Headset Gamer Havit, Drivers 53mm - HV-H2002D",
+      "slug": "headset-gamer-havit-drivers-53mm-hv-h2002d",
+      "image": "products/2021/12/13/10671-hedaset-havit-h2002d-011.png",
+      "description": "Headset Gamer Havit H2002D Aparência e textura proporcionais, simples e generosas. Jaqueta de liga leve com frente e superfície de plástico com revestimento de piano. Design Gamer em preto, para combinar com seu setup e além de ter qualidade surpreendente por um preço baixo. Head set Gamer Havit com excelente custo benefício. Desempenho e Compatibilidade com PC, PS4 e XBOX Faixa de cabeça ajustável suspensa única, design ergonômico, confortável de usar, antiviolência e não fácil de danificar. À prova de desgaste, resistente a arranhões e atualizado e adequado para pessoas diferentes, o peso de toda a máquina é moderado, desgastando por muito tempo sem pressão. Microfone plugável de 3,5 mm compatível para PC, PS4 e XBOX e Alto-falante magnético de 53 mm de alta qualidade de som para distinguir o som dos jogos e a frequência fracionária alta e baixa meticulosa ao ouvir música. Headset Gamer Havit",
+      "price": 229.9,
+      "is_available": true,
+      "category": 1
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 9,
+    "fields": {
+      "created": "2021-12-13T03:02:49.950441+00:00",
+      "modified": "2021-12-13T03:02:49.950441+00:00",
+      "name": "Teclado Mecânico Gamer Redragon Kumara, RGB, Switch Outemu Brown, PT - K552RGB-1 (PT-BROWN)",
+      "slug": "teclado-mecanico-gamer-redragon-kumara-rgb-switch-",
+      "image": "products/2021/12/13/93160_1523969683_index_gg1.jpg",
+      "description": "Características:\r\n\r\n- Marca: Redragon\r\n\r\n- Modelo: K552RGB-1 (PT-BROWN)\r\n\r\n\r\n\r\nEspecificações:\r\n\r\n​- Teclado Mecânico de Alto Desempenho\r\n\r\n- Iluminação com Leds RGB\r\n\r\n- Compatível com Software para controle RGB e criação de Macros\r\n\r\n- 19 Modos de Iluminação RGB incluindo modo de personalização individual de Teclas \r\n\r\n- 12 Teclas para controle Multimídia\r\n\r\n- Controle de Iluminação \"On-The-Fly\"\r\n\r\n​​- Sistema N*Key Rollover para Anti-Ghosting em 100% das Teclas\r\n\r\n- Funcionamento da Tecla Win Alternável(Pressione FN+Win para Desligar / Ligar a Tecla)\r\n\r\n- Padrão ABNT2: Feito Especialmente para o Mercado Brasileiro\r\n\r\n- O primeiro do Mundo em ABNT2 com teclas Padrão Double Injection\r\n\r\n- Fabricado com o Renomado Switch Mecânico Outemu: Brown\r\n\r\n- Outemu Brown: Feedback Tátil, Resistência Média, Sem Clique Audível\r\n\r\n​- Construção Robusta em Metal e Plástico ABS para maior Durabilidade\r\n\r\n- Dimensão: 35 x 12.4 x 3.8 cm\r\n\r\n- Switch removível",
+      "price": 249.9,
+      "is_available": true,
+      "category": 1
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 10,
+    "fields": {
+      "created": "2021-12-13T03:04:02.670076+00:00",
+      "modified": "2021-12-13T03:04:02.670076+00:00",
+      "name": "Mouse Gamer MMO Logitech G600 com RGB LIGHTSYNC, 20 Botões Programáveis e Até 8.200 DPI - 910-003879",
+      "slug": "mouse-gamer-mmo-logitech-g600-com-rgb-lightsync-20",
+      "image": "products/2021/12/13/mouse-gamer-logitech-g600-mmo-rgb-lightsync-20-botoes-8200-dpi-910-0_VO6012X.jpg",
+      "description": "Com 20 botões, o Logitech® G600 MMO Gaming Mouse é o mouse mais personalizável e fácil de utilizar, especialmente concebido para dominar o seu MMO favorito. Três botões principais. Doze botões para polegar. Uma roda de deslocamento clicável com inclinação. Alteração de perfil e DPI. E tudo pré-configurado para utilização optimizada em jogos MMO desde o primeiro momento ? não são necessários controladores. Três perfis integrados ? dois para MMO e um para FP ? que guardam atribuições de botões, informação de rastreamento e definições de cor da iluminação. Utilize os perfis instalados ou transfira software opcional para os otimizar.",
+      "price": 399.9,
+      "is_available": true,
+      "category": 1
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 11,
+    "fields": {
+      "created": "2021-12-13T03:06:39.987254+00:00",
+      "modified": "2021-12-13T03:07:05.715524+00:00",
+      "name": "Monitor Gamer LG 34' IPS, Curvo Ultra Wide, 144 Hz, Full HD, 1ms, FreeSync, HDR 10, 99% sRGB, HDMI/DisplayPort, Ajuste de Altura - 34GL750",
+      "slug": "monitor-gamer-lg-34-ips-curvo-ultra-wide-144-hz-fu",
+      "image": "products/2021/12/13/1100-11.jpg",
+      "description": "Monitor Gamer LG LED 34´ Evolua o jogo antes do seu rival O Monitor LG Gamer é um poderoso equipamento de exibição de jogos integrado às funções de alto desempenho que podem responder a qualquer jogo de grande sucesso. Este monitor é compatível com HDR10 para representar detalhes em partes claras e escuras, para que os jogadores desfrutem de um brilho mais intenso e destaques com sombras e silhuetas mais profundas. Compatível com G-SYNC certificado pela NVIDIA Após ser testado pela NVIDIA, o monitor LG 34GL750 é oficialmente compatível com G-SYNC, eliminando cortes e minimizando as repetições de imagem para uma experiência mais fluida nos seus jogos. 144Hz e 1ms Motion Blur Reduction Com uma taxa de atualização de 144Hz e 1ms, os objetos são renderizados claramente para uma jogabilidade mais suave e uma fluidez visual quase surreal. Os objetos mais dinâmicos e de ritmo acelerado em meio a toda a ação podem dar aos jogadores uma vantagem competitiva. Você poderá ver até os menores movimentos com clareza e ter ações antes dos seus adversários. O Monitor Gamer LG te dá espaço. Tenha 30% mais campo de visão com uma tela UltraWide 21:9. Com ela você poderá ver áreas que não são vistas em monitores convencionais 16: 9, dando a vantagem que precisa para ganhar de seus adversários. Maior conforto nos jogos A base e a tela praticamente sem bordas do 34GL750 podem ser ajustadas em inclinação e altura, para que você jogue de forma mais confortável, garantindo maior estabilidade. Garanta já seu Monitor Gamer LG",
+      "price": 2999.9,
+      "is_available": true,
+      "category": 1
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 8,
+    "fields": {
+      "created": "2021-12-13T03:02:05.005201+00:00",
+      "modified": "2021-12-13T03:07:48.793262+00:00",
+      "name": "Caixa de Som Gamer Husky Gaming Storm, Preto, 6W, USB / P2, Rainbow - CX-HST-RA",
+      "slug": "caixa-de-som-gamer-husky-gaming-storm-preto-6w-usb",
+      "image": "products/2021/12/13/9f462500624bb526fb6e415bc99a6e131.jpg",
+      "description": "Caixa de Som Gamer Husky Gaming Storm\r\nA Caixa de Som Gamer Husky Storm oferece alto-falantes de alta qualidade, com som nítido e preciso, acompanhados da iluminação Rainbow, que acrescenta mais estilo ao seu setup. A caixa de som gamer é pensada para você ter o som perfeito durante o gameplay de seus jogos online favoritos, como League of Legends, Free Fire, Fortnite e CS:GO.\r\n\r\n \r\n\r\nA Storm traz ainda um design leve e, ao mesmo tempo, repleto de recursos capazes de proporcionar praticidade e imersão nas gameplays, com um cabo resistente de 1.2m, materiais à base de metais, touch control para intensidade da luz e seleção ON/ OFF dos LEDs, botão de volume de fácil acesso e conectividade USB/ P2. Gostou? Então adquira agora a caixa de som gamer Storm da Husky, que é repleta de muita qualidade e um custo-benefício excelente.",
+      "price": 69.9,
+      "is_available": true,
+      "category": 1
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 12,
+    "fields": {
+      "created": "2021-12-13T03:09:45.668638+00:00",
+      "modified": "2021-12-13T03:09:45.668638+00:00",
+      "name": "Diorama Batman Family: DC Comics (Q-Master) - Quantum Mechanix",
+      "slug": "diorama-batman-family-dc-comics-q-master-quantum-m",
+      "image": "products/2021/12/13/D_NQ_NP_964765-MLB40335848311_012020-O1.webp",
+      "description": "Batman, um cavaleiro solitário, vive paradoxalmente em família. Foi isso que o Diretor criativo da Quantum Mechanix, Mohammad Haque, se esforçou para capturar nessa estátuas, chamado-a simplesmente de Família. O resultado é o maior e mais detalhado diorama que a QMx já faz: o primeiro de uma nova série de de dioramas no formato grande chamada Q-Master.\r\n\r\n \r\n\r\nA estátua tem mais de 37 cm de altura e apresenta 6 personagens diferentes. Ela engloba toda a história dos relacionamentos do Batman na sua luta como o crime, incluindo logicamente seus vários protegidos. Cada parceiro do Batman é representado nessa peça, com os posicionamentos e expressões refletindo duas personalidades e relacionamentos com o Batman. A estátua é feita de uma poliresina proprietária de alta temperatuda devenvolvida pela QMx chamada Everstone, que oferece aos colecionadores tudo que eles procuram num colecionável de alta qualidade: ótima durabilidade, detalhamento preciso e peso para resistir ao desgaste e quebra. Vem com um certificado de autenticidade assinado pelo seu criador. É uma peça única, diferente e divertida, misturando um estilo realista e ao mesmo tempo caricato, com a Batgirl e todos os principais Robins das HQs do Batman: o original Dick Grayson como Asa Noturna, Jason Todd como Capuz Vermelho, Tim Drake como Red Robin e Damian como o Robin mais recente.",
+      "price": 2479.76,
+      "is_available": true,
+      "category": 2
+    }
+  }
+]

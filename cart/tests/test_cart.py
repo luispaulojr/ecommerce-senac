@@ -2,6 +2,7 @@ import pytest
 from django.conf import settings
 from django.contrib.sessions.middleware import SessionMiddleware
 from django.http import HttpRequest
+
 from products.tests.factories import ProductFactory
 
 from ..cart import Cart
@@ -40,16 +41,16 @@ def test_create_empty_cart(http_request, session):
 
 
 def test_get_non_empty_cart(http_request, session):
-    session[settings.CART_SESSION_ID] = {"1": {}}
+    session[settings.CART_SESSION_ID] = {'1': {}}
     Cart(http_request)
-    assert session[settings.CART_SESSION_ID] == {"1": {}}
+    assert session[settings.CART_SESSION_ID] == {'1': {}}
 
 
 def test_add_product_to_empty_cart(product, cart, session):
     cart.add(product)
 
     assert session[settings.CART_SESSION_ID] == {
-        str(product.id): {"quantity": 1, "price": str(product.price)}
+        str(product.id): {'quantity': 1, 'price': str(product.price)}
     }
     assert session.modified
 
@@ -58,7 +59,7 @@ def test_add_product_to_empty_cart_quantity_gt_1(product, cart, session):
     cart.add(product, 2)
 
     assert session[settings.CART_SESSION_ID] == {
-        str(product.id): {"quantity": 2, "price": str(product.price)}
+        str(product.id): {'quantity': 2, 'price': str(product.price)}
     }
     assert session.modified
 
@@ -70,7 +71,7 @@ def test_add_product_to_empty_cart_twice(product, cart, session):
     cart.add(product, 2)
 
     assert session[settings.CART_SESSION_ID] == {
-        str(product.id): {"quantity": 3, "price": str(product.price)}
+        str(product.id): {'quantity': 3, 'price': str(product.price)}
     }
     assert session.modified
 
@@ -82,7 +83,7 @@ def test_add_product_to_empty_cart_override_quantity(product, cart, session):
     cart.add(product, 4, override_quantity=True)
 
     assert session[settings.CART_SESSION_ID] == {
-        str(product.id): {"quantity": 4, "price": str(product.price)}
+        str(product.id): {'quantity': 4, 'price': str(product.price)}
     }
     assert session.modified
 
@@ -116,10 +117,10 @@ def test_cart_iter(cart, session):
     quantities = [1, 2, 3]
 
     for product, quantity, item in zip(products, quantities, cart):
-        assert product.price == item["price"]
-        assert product.price * quantity == item["total_price"]
-        assert product == item["product"]
-        assert "update_quantity_form" in item
+        assert product.price == item['price']
+        assert product.price * quantity == item['total_price']
+        assert product == item['product']
+        assert 'update_quantity_form' in item
 
     assert not session.modified
     assert list(cart.cart.values()) != list(iter(cart))
@@ -156,3 +157,9 @@ def test_cant_add_more_than_max_items(product, cart):
 
     cart.add(product, 1)
     assert len(cart) == settings.CART_ITEM_MAX_QUANTITY
+
+
+def test_clear_cart(cart, session):
+    assert settings.CART_SESSION_ID in session
+    cart.clear()
+    assert settings.CART_SESSION_ID not in session
